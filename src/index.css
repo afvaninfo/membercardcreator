@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Archivo Black", sans-serif;
+  --font-subhead: "Archivo", sans-serif;
+  --font-body: "Manrope", sans-serif;
+  --color-teqx-blue: #0B63CE;
+  --color-teqx-ink: #0E1118;
+  --color-teqx-deep: #063A82;
+  --color-teqx-sky: #5AA2F0;
+  --color-teqx-mist: #EAF1FB;
+  --color-teqx-slate: #3F4859;
+}
+
+:root {
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Custom styling for slant aesthetics */
+.slant-cut {
+  clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
+}
+
+.slant-cut-reverse {
+  clip-path: polygon(0% 0%, 86% 0%, 100% 100%, 14% 100%);
+}

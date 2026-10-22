@@ -1,0 +1,6 @@
+{
+  "name": "Teqx Studio Members Card Maker",
+  "description": "Design and export branded 1080x1350 members cards for Teqx Studio with interactive photo placement and brand guidelines styling.",
+  "requestFramePermissions": ["downloads"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
